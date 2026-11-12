@@ -22,9 +22,9 @@ body {
     display: flex;
     flex-direction: column;
     /* border: 2px solid green; */
-    width: 700px;
-    gap: 10px;
-    margin-left: 20px;
+    width: 900px;
+    gap: 15px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
@@ -44,7 +44,7 @@ body {
     align-items: flex-end;
     /* border: 1px solid rgb(102, 132, 183); */
     width: 500px;
-    gap: 10px;
+    gap: 5px;
 }
 
 .header-right-top {
@@ -68,6 +68,17 @@ body {
     height: 200px;
 }
 
+
+
+
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+}
+
 .user-info {
     display: flex;
     flex-direction: row;
@@ -77,18 +88,26 @@ body {
 
 
 button {
-    padding: 5px;
+    padding: 12px 24px;
+    background-color: rgb(69, 144, 207);
+    color: white;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .search {
     display: flex;
     flex-direction: row;
-    gap: 40px
+    gap: 20px;
+    /* border: 1px yellowgreen solid; */
+    width: 100%;
 }
 
-.search-bar input {
-    width: 500px;
+.search-bar {
+    background-color: rgb(227, 232, 239);
+    width: 700px;
 }
+
 
 .left-sidebar {
     grid-column: 1/ 2;
@@ -100,11 +119,13 @@ button {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 130px;
     grid-column: 2 / 4;
     grid-row: 1;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid lightgray;
 }
 
 .right-sidebar {
